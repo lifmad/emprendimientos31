@@ -1,5 +1,6 @@
 @import url('/stylesheets/login.css');
 @import url('/stylesheets/registro.css');
+@import url('/stylesheets/index.css');
 
 * {
   padding: 0;
