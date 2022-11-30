@@ -1,3 +1,12 @@
+@import url('/stylesheets/login.css');
+@import url('/stylesheets/registro.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
