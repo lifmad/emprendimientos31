@@ -1,0 +1,30 @@
+<main class="registro">
+        <div class="contenedor">
+        <form action="" id="formulario" name="formulario" class="formulario">
+            <div class="contenedor-inputs">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+
+            <input type="text" id="apellido" placeholder="Apellido" required>
+
+            <input type="email" name="correo" placeholder="Correo" id="correo" required>
+
+            <label for="fecha">Fecha de Nacimiento:</label><input type="date" name="fecha" id="fecha" required>
+            <input type="text" id="contraseña" placeholder="Contraseña" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" >
+        </div>
+        <div class="sexo">
+
+            <input type="radio" name="sexo" id="hombre" required> <label class="label-radio" for="hombre">Hombre</label>
+
+            <input type="radio" name="sexo" id="mujer" required><label class="label-radio" for="mujer">Mujer</label>
+
+        </div>
+<div class="terminos">
+            <input type="checkbox" name="terminos" id="terminos" required> <label for="terminos">Acepto terminos y condiciones</label>
+        </div>
+        <input type="submit" value="Registrarse" id="boton" class="boton">
+    </div>
+            
+       
+        </form>
+    
+    </main>

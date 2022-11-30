@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #bdbbbb;
+    font-family: 'Poppins', sans-serif;
+}
+
+main.login .formulario{
+    background: #fff;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 300px; */
+    height: 533px;
+    border-radius: 6px;
+}
+main.login .formulario h2{
+    text-align: center;
+    padding-top: 50px;
+}
+main.login .formulario input{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    /* margin-bottom: 20px; */
+    height: 30px;
+    width: 200px;
+    /* margin-left: auto; */
+    margin: 20px 40px;
+    overflow: hidden;
+}
+main.login .formulario input[type="password"],
+main.login .formulario input[type="email"]{
+    display: block;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+
+main.login .formulario input[type="password"]:focus,
+main.login .formulario input[type="email"]:focus{
+border-bottom:2px solid #212528;
+cursor: pointer;
+}
+main.login .formulario input[type="radio"]{
+    display: none;
+}
+main.login .formulario .sexo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+   
+} 
+main.login .formulario p{
+    margin: 20px 0 20px 0;
+    font-size: 15px;
+}
+main.login .formulario p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+main.login .formulario button{
+    background: #ffc008;
+    color: rgb(5, 1, 1);
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius:6px;
+    font-size: 20px;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+main.login .formulario button:hover{
+    /* color: #fff; */
+    border-radius:  0;
+}
+main.login .formulario a{
+    color: #212528;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+main.login .formulario a:hover{
+    text-decoration: underline;
+}
+main.login .imagenes img{
+    margin: 15px;
+}
+main.login .formulario img:hover{
+    cursor: pointer;
+}
