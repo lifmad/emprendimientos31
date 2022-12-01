@@ -1,0 +1,118 @@
+/* SOLO NAV */
+
+/*EMPIEZA*/
+
+header{
+    background-color: #212528;
+}
+
+main{
+    background-color:  rgba(88, 81, 81, 0.39);
+}
+
+
+/*estilos nav*/
+.caja-logo-nav{
+    padding: 0 10px 0 40px;
+}
+
+
+.logo-nav{
+    width: 200px;
+    height: 90px;
+}
+
+.caja-link li a{
+    color: white;
+    
+
+}
+
+.caja-link li a:hover{
+    color: #ffc008;
+}
+
+.caja-link  a:visited{
+    color: white;
+
+}
+
+
+/*.caja-registrar{
+    padding: 0 70px 0 0;
+}*/
+
+
+
+/*TERMINA EL NAV*/
+
+.sub-titulo{
+    /*background-color: rgba(88, 81, 81, 0.39);*/
+}
+
+.sub-titulo h2{
+    color: black;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Alfa Slab One', cursive;
+   /*font-family: 'Montserrat', sans-serif;*/
+  font-size:35px;
+
+}
+
+
+
+h3{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.boton-card{
+    display: flex;
+   justify-content: center;
+}
+
+.card{
+    box-shadow: inset black;
+}
+
+/*footer*/
+.caja-footer-resp{
+    width: 100%;
+}
+
+.titulo-footer{
+    color: aliceblue;
+}
+.parrafo-footer{
+    color: aliceblue;
+}
+
+.bi-instagram {
+    color:#ffc008
+}
+
+.bi-twitter{
+    color: #ffc008
+}
+
+.insta{
+    height: 10px;
+}
+.bi-facebook{
+    color:#ffc008
+}
+
+.registro{
+   display: flex;
+   justify-content: center;
+}
+
+
+.copy{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/*responsive footer*/
