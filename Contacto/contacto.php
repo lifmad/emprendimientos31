@@ -20,4 +20,4 @@ echo'Pronto nos estaremos comunicando con usted!';
 ?>
 <Br>
 <Br>
-<button><a href="index.html">Volver</a></button>
+<button><a href=".html">Volver</a></button>

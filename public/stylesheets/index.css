@@ -1,0 +1,86 @@
+/*     Carrusel     */
+.cont-carrusel {
+    position: relative;
+}
+
+.cont-carrusel .box-carrusel .pag-img {
+    position: absolute;
+}
+
+.cont-carrusel .box-carrusel .desc-img {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.cont-carrusel .box-dots {
+    position: absolute;
+    right: 8px;
+    top: 43%;
+}
+
+.cont-carrusel .box-dots .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(224, 228, 27);
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+    margin: 5px;
+}
+
+/*     Stylos de seccion de urbanizacion      */
+
+section.sec-urb {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.sec-urb .box-img {
+    max-width: 400px;
+}
+
+
+/*   Stylos de los comercios y empresas en el barrio  */
+
+section.sec-ent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+section.sec-ent div {
+    max-width: 200px;
+}
+
+
+/*     stylos en enlace para capacitacion de finanzas    */
+
+.sec-finan .box-finan {
+    position: relative;
+    margin: 10px;
+}
+
+.sec-finan .box-finan .finance-text {
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    padding: 0 10px;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+
+/*     Stylos de Localización    */ 
+
+section.sec-location {
+    text-align: center;
+    margin-bottom: 20px;
+}
