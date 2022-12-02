@@ -18,4 +18,38 @@ a {
   color: #00B7FF;
 }
 
+/*estilos index destacasos*/
 
+.subti-destacados{
+  background-color: rgba(0, 0, 0, 0.377);
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin: 15px 0 15px 0;
+  
+}
+
+
+.dest-empren{
+  width: auto;
+  height: auto;
+  
+}
+
+.destacados{
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 5px 0 ;
+  
+}
+
+.img-dest{
+  border-radius: 15px;
+  
+}
+
+.img-dest:hover {
+  filter: opacity(.5);
+}
+
+/*termina estilos de emprendimientos destacados*/
