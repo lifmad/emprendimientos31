@@ -10,7 +10,9 @@
   box-sizing: border-box;
 }
 
-
+main{
+  background-color:  rgba(88, 81, 81, 0.39);
+}
 
 a {
   color: #00B7FF;
