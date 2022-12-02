@@ -27,6 +27,7 @@ img{
  display: flex;
 justify-content: center;
 border: 5px solid black;
+border-radius: 20px;
   
 }
 .slogan_parrafo{
@@ -34,7 +35,8 @@ border: 5px solid black;
     margin: 4px;
     text-align: center;
     margin-top: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+     
 
 }
 
@@ -46,6 +48,18 @@ border: 5px solid black;
 
 
 
+<<<<<<< HEAD
+=======
+.sub-titulo h2{
+    color: black;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Alfa Slab One', cursive;
+   /*font-family: 'Montserrat', sans-serif;*/
+    font-size:35px;
+
+}
+>>>>>>> 0419a6a4b9a86f5f238352b239a5d9e37007706c
 
 
 
@@ -63,13 +77,19 @@ border: 5px solid black;
 
 .cardperfil{
     width: 300px;
-     height: 450px;
-    border: 1px solid black;
+    height: 450px;
+    background-color:  rgba(88, 81, 81, 0.39);
+
     
 }
-.imgignacio, .imgbeimar, .imgbelen, .imgmagali, .imgjoaquin{
+ .imgignacio, .imgbeimar, .imgbelen, .imgmagali, .imgjoaquin{
     width: 201px;
     height: 260px;
-    
-}
+  
 
+}
+.btncards{
+    background-color: #ffc008;
+    margin: 5% 29%;
+    border-radius: 10px;
+}

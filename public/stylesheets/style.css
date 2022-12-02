@@ -3,20 +3,11 @@
 @import url('/stylesheets/capas.css');
 @import url('/stylesheets/capas02.css');
 @import url('/stylesheets/index.css');
+@import url('/stylesheets/estilos.css');
+@import url('/stylesheets/general.css');
+@import url('/stylesheets/fonts.css');
+@import url('/stylesheets/catalogue.css');
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-main{
-  background-color:  rgba(88, 81, 81, 0.39);
-}
-
-a {
-  color: #00B7FF;
-}
 
 /*estilos index destacasos*/
 
