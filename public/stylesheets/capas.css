@@ -2,7 +2,7 @@
 
 /*EMPIEZA*/
 
-.caja-nav{
+header{
     background-color: #212528;
 }
 
@@ -15,6 +15,15 @@ main{
 .caja-logo-nav{
     padding: 0 10px 0 40px;
 }
+
+@media screen (min-width: 500px) {
+
+    .caja-logo-nav{
+        padding: 0;
+    }
+    
+}
+
 .logo-nav{
     width: 200px;
     height: 90px;
@@ -75,6 +84,10 @@ h3{
 }
 
 /*footer*/
+.caja-footer-resp{
+    width: 100%;
+}
+
 .titulo-footer{
     color: aliceblue;
 }
@@ -107,4 +120,17 @@ h3{
     display: flex;
     justify-content: center;
     color: white;
+}
+
+/*responsive footer*/
+
+@media screen (min-width: 500px) {
+
+    .caja-footer-resp{
+        display: flex;
+        flex-direction:column;
+
+    }
+
+    
 }
