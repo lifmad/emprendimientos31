@@ -264,3 +264,41 @@ main{
 {
     padding-top: 25px;
 }
+
+.catalogo .catalogo-emprendimientos .col h5
+{
+    text-decoration: underline;
+}
+
+.catalogo .catalogo-emprendimientos .col .facebook-img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.catalogo .catalogo-emprendimientos .col .whatsapp-img
+{
+    width: 45px;
+    height: 45px;
+
+}
+
+.catalogo .catalogo-emprendimientos .col .container-redes
+{
+    width: 110px;
+    height: 45px;
+    background-color:rgba(243, 136, 6, 0.646);
+    border-radius: 20px;
+}
+
+.catalogo .catalogo-emprendimientos .col  .card .card-body
+{
+    background-color:#ffc10861;
+}
+
+.catalogo .catalogo-emprendimientos .col  .card .size-medium
+{
+    width: 100%;
+    height: 250px;
+
+}
