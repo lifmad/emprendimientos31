@@ -6,6 +6,7 @@
     box-sizing: border-box;    
     font-family: 'Alegreya Sans SC', sans-serif;
   }
+
   
 /* ------------------ Estilos Nav ------------------*/
 .caja-nav{
@@ -160,7 +161,6 @@ main{
 {
     font-size: 20px;
     color: black;
-
 }
 
 
@@ -248,4 +248,19 @@ main{
 .catalogo .catalogo-filtros .container-ordenamiento .form-select-lg
 {
     font-size: 15px;
+}
+
+.catalogo .catalogo-filtros .container-ordenamiento p
+{
+    color: black;
+}
+
+.catalogo .catalogo-emprendimientos 
+{ 
+    width: 100%;
+}
+
+.catalogo .catalogo-emprendimientos .col
+{
+    padding-top: 25px;
 }
