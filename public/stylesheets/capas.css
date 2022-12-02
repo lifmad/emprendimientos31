@@ -13,7 +13,7 @@ main{
 
 /*estilos nav*/
 .caja-logo-nav{
-    padding: 0 10px 0 40px;
+    padding: 0 0px 0 40px;
 }
 
 
@@ -24,6 +24,7 @@ main{
 
 .caja-link li a{
     color: white;
+   
     
 
 }
