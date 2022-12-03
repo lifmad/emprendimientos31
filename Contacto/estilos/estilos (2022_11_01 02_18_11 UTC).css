@@ -9,7 +9,7 @@ main{
 img{
     width: 8%;
 }
-#contenedor-formulario{
+main.vistacontacto #contenedor-formulario{
     width: 400px;
     height: 525px;
     margin: 40px auto;
@@ -18,7 +18,7 @@ img{
 
 
 }
-#titulo-formulario h2{
+main.vistacontacto #titulo-formulario h2{
     padding-top : 30px ;
     padding-bottom: 25px;
 }
