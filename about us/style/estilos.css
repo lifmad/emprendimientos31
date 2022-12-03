@@ -7,48 +7,22 @@
 main{
     background-color:  rgba(88, 81, 81, 0.39);
 }
-
-
-
-.logo-nav{
-    width: 200px;
-    height: 90px;
+.carousel{
+    width: 90%;
+    margin-left: 65px;
 }
-
-.titulo{
-    padding: 0 60px 0 0;
-}
-
-/*.contenedor-nav{
-    display: flex;
-    justify-content: center;
-}*/
-
-
-
-.principal{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    
-}
-
-.titulo .principal{
-
-    font-size: 23px;
-    font-family: 'Alfa Slab One', cursive; 
-}
-
-
 
 img{
 
-    height: 100vh;
-    width: 200px;
+    height: 500px;
+    width: 500px;
+    border-top: 10px;
+    border-radius: 10px;
     
 }
 .separador{
     color:  rgba(88, 81, 81, 0.39);
+    
 }
 
 /* ACA COMIENZA EL SLOGAN DE NUESTRA MARCA  */
@@ -72,102 +46,68 @@ border-radius: 20px;
      
 
 }
-
-
-
-
-
-
-h5{
-    color: white;
+.slogan_div:hover{
+    cursor: pointer;
+    background-color: #ffc008;
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 0 10px #ffc008 , 0 0 40px #ffc008 , 0 0 80 px #ffc008 ;
+    
 }
 
 
 
-.sub-titulo h2{
-    color: black;
-    text-align: center;
-    padding: 50px;
-    font-family: 'Alfa Slab One', cursive;
-   /*font-family: 'Montserrat', sans-serif;*/
-    font-size:35px;
-
-}
-
-
-
-h3{
-    text-align: center;
-    font-family: 'Alfa Slab One', cursive;
-}
-
-.boton-card{
-    display: flex;
-   justify-content: center;
-}
-
-.card{
-    box-shadow: inset black;
-}
-p{
-    color: black;
-}
-
-.bi-instagram {
-    color:#ffc008
-}
-
-.bi-twitter{
-    color: #ffc008
-}
-
-.insta{
-    height: 10px;
-}
-.bi-facebook{
-    color:#ffc008
-}
-
-.registro{
-   display: flex;
-   justify-content: center;
-}
-
-hr{
-    color:white
-}
-
-.copy{
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
-
-
-
-/* ACA EMPIEZAN LAS CARTAS  */
-.containercard3,.containercard2{
+/* ACA EMPIEZAN LOS ESTILOS DE LAS  CARTAS  */
+.containercard3{
     
     display: flex;
     justify-content: space-around;
+}
+.containercard2{
+    display: flex;
+    justify-content:space-evenly;
 }
 
 .cardperfil{
     width: 300px;
     height: 450px;
-    background-color:  rgba(88, 81, 81, 0.39);
+    background-color:  rgba(88, 81, 81, 0.39); 
+    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow:  5px 5px 10px #321a1a,
+                -5px -5px 10px #c86666;
+} 
+.cardperfil:hover{
 
+    transform: scale(1.1);
+    transition: 50.4ms;
+}
+
+ .imgignacio, .imgbeimar, .imgbelen, .imgmagali, .imgjoaquin{
+   
+     width: 201px; 
+    height: 260px;
+    margin-top: 30px;
+    border-radius: 10px ;
+    
     
 }
- .imgignacio, .imgbeimar, .imgbelen, .imgmagali, .imgjoaquin{
-    width: 201px;
-    height: 260px;
-  
+.cardtext{
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', cursive;
 
 }
 .btncards{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 40px;
     background-color: #ffc008;
-    margin: 5% 29%;
-    border-radius: 10px;
+    text-decoration: none;
+    
 }
+.btncards a{
+    text-decoration: none;
+}
+
