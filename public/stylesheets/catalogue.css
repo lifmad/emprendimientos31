@@ -2,24 +2,24 @@ main.catalogue {
     padding-bottom: 30px;
 }
 
-main.catalogue .caja-nav{
+main.catalogue .caja-nav {
     font-family: 'Alegreya Sans SC', sans-serif;
     background-color: #212528;
 }
 
-main.catalogue .caja-link li a{
+main.catalogue .caja-link li a {
     color: white;
 }
 
-main.catalogue .caja-link li a:hover{
+main.catalogue .caja-link li a:hover {
     color: #ffc008;
 }
 
-main.catalogue .caja-link  a:visited{
+main.catalogue .caja-link a:visited {
     color: white;
 }
 
-main.catalogue .caja-registrar{
+main.catalogue .caja-registrar {
     padding: 0 70px 0 0;
 }
 
@@ -30,39 +30,40 @@ main.catalogue .titulo-footer {
     color: aliceblue;
 }
 
-main.catalogue .parrafo-footer{
+main.catalogue .parrafo-footer {
     color: aliceblue;
 }
 
 main.catalogue .bi-instagram {
-    color:#ffc008
-}
-
-main.catalogue .bi-twitter{
     color: #ffc008
 }
 
-main.catalogue .insta{
+main.catalogue .bi-twitter {
+    color: #ffc008
+}
+
+main.catalogue .insta {
     height: 10px;
 }
 
-main.catalogue .bi-facebook{
-    color:#ffc008
+main.catalogue .bi-facebook {
+    color: #ffc008
 }
 
-main.catalogue .registro{
-   display: flex;
-   justify-content: center;
+main.catalogue .registro {
+    display: flex;
+    justify-content: center;
 }
 
-main.catalogue .copy{
+main.catalogue .copy {
     display: flex;
     justify-content: center;
     color: white;
 }
+
 /* ------------------ Estilos IMG Barrio 31 ------------------*/
 
-main.catalogue .img-31{
+main.catalogue .img-31 {
     width: 100%;
     height: 400px;
     position: relative;
@@ -75,51 +76,49 @@ main.catalogue .img-31 img {
 }
 
 main.catalogue .img-31 h1,
-main.catalogue .img-31 h2 {    
+main.catalogue .img-31 h2 {
     color: white;
-    position: absolute;      
+    position: absolute;
     font-weight: 700;
 }
 
 main.catalogue .img-31 h1 {
     text-shadow: 5px 5px 5px black;
     font-size: 5rem;
-    top: 40%;    
-    left: 5%;   
+    top: 40%;
+    left: 5%;
 }
 
 main.catalogue .img-31 h2 {
     text-shadow: 5px 5px 2px black;
     font-size: 2rem;
-    top: 62%;    
+    top: 62%;
     left: 6%;
 }
 
 /* ------------------ Estilos Catalogo------------------*/
 
 main.catalogue .catalogo {
-    width: 100%;   
+    width: 100%;
 }
 
 /* ------------------ Estilos Catalogo-Filtros ------------------*/
 
- 
+
 main.catalogue .catalogo-filtros {
     display: flex;
-    flex-direction: row;    
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
     width: 100%;
     height: 150px;
 }
 
-/* --- Buscador--- */ 
+/* --- Buscador--- */
 
 main.catalogue .catalogo .catalogo-filtros .box {
     width: 300px;
     height: 50px;
-    background-color: #ffc008 ;
+    background-color: #ffc008;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -128,15 +127,15 @@ main.catalogue .catalogo .catalogo-filtros .box {
 }
 
 
-main.catalogue .catalogo .catalogo-filtros .box > i {
+main.catalogue .catalogo .catalogo-filtros .box>i {
     font-size: 20px;
     color: black;
 }
 
 
-main.catalogue .catalogo .catalogo-filtros .box > input {
+main.catalogue .catalogo .catalogo-filtros .box>input {
     background-color: #ffc008;
-    flex : 1;
+    flex: 1;
     height: 40px;
     border: none;
     outline: none;
@@ -145,7 +144,7 @@ main.catalogue .catalogo .catalogo-filtros .box > input {
 }
 
 
-/* --- Switch Publicados Hoy --- */ 
+/* --- Switch Publicados Hoy --- */
 
 
 main.catalogue .catalogo .catalogo-filtros .container-publicados {
@@ -157,8 +156,8 @@ main.catalogue .catalogo .catalogo-filtros .container-publicados {
     height: 55px;
     background-color: white;
     border-radius: 20px;
-    border:  4px solid black;
-      
+    border: 4px solid black;
+
 }
 
 main.catalogue .catalogo .catalogo-filtros .texto-publicados {
@@ -188,7 +187,7 @@ main.catalogue .catalogo .catalogo-filtros .container-select-categoria {
     align-items: center;
     justify-content: center;
     width: 160px;
-    height: 80px; 
+    height: 80px;
 }
 
 main.catalogue .catalogo .catalogo-filtros .container-select-categoria .form-select {
@@ -216,10 +215,16 @@ main.catalogue .catalogo .catalogo-filtros .container-ordenamiento p {
     color: black;
 }
 
-main.catalogue .catalogo .catalogo-emprendimientos { 
+main.catalogue .catalogo .catalogo-emprendimientos {
     width: 100%;
 }
 
 main.catalogue .catalogo .catalogo-emprendimientos .col {
     padding-top: 25px;
+}
+
+
+.parrafo-catalogo{
+    font-size: 15px;
+
 }

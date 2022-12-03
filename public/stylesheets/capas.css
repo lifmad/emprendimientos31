@@ -6,10 +6,14 @@ header{
     background-color: #212528;
 }
 
+main{
+    background-color:  rgba(88, 81, 81, 0.39);
+}
+
 
 /*estilos nav*/
 .caja-logo-nav{
-    padding: 0 0px 0 40px;
+    padding: 0 10px 0 40px;
 }
 
 
@@ -21,8 +25,6 @@ header{
 .caja-link li a{
     color: white;
    
-    
-
 }
 
 .caja-link li a:hover{
@@ -56,7 +58,7 @@ header{
 
 
 
-main.capa h3{
+h3{
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
 }
