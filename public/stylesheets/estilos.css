@@ -1,7 +1,7 @@
 
-main{
+main.sobrenosotros{
     background-color:  rgba(88, 81, 81, 0.39);
-
+    padding: 10px 0 30px 0;
 }
 main.sobrenosotros .carousel{
     width: 90%;
