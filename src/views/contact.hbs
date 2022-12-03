@@ -1,34 +1,48 @@
-<!-- ACA COMIENZA EL CONTENIDO DE CONTACTO -->
-<main class="vistacontacto">
-    <!-- SECCION DE CONTACTO -->
-    <section id="seccion-contacto" class="border-bottom border-secondary border 2">
-        <!-- CONTENEDOR DEL FORMULARIO  -->
-        <div class="container border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
-            <div class="text-center mb-4" id="titulo-formulario">
-                <h2>Contactanos</h2>
-                <form method="POST" data-netlify="true" action="/Contacto/contacto.php">
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="email@example"
-                            required>
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="name" name="nombre" placeholder="Nombre y apellido"
-                            pattern="[A-Za-z]+" title="No se admiten valores numericos" required>
-                    </div>
-                    <div class="mb-3">
-                        <input type="tel" class="form-control" name="telefono" id="phone" placeholder="Telefono"
-                            pattern="[0-9]+">
-                    </div>
-                    <div class="mb-3">
-                        <textarea class="form-control" name="comentarios" id="message" placeholder="Escribe tu Mensaje"
-                            style="max-height: 100px"></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <button type="submit" class="btn btn-warning w-100 fs-5">Enviar Mensaje</button>
-                    </div>
-                </form>
+   <!-- ACA COMIENZA EL CONTENIDO DE CONTACTO -->
+    <main class="vistacontacto">
+
+        <!-- SECCION DE CONTACTO -->
+
+        <section id="seccion-contacto" class="border-bottom border-secondary border 2">
+
+
+
+            <!-- CONTENEDOR DEL FORMULARIO  -->
+            <div class="container border-top border-primary "  id="contenedor-formulario">
+                <div class="text-center mb-4" id="titulo-formulario">
+                    <h2>Contactanos</h2>
+
+
+
+
+                    <form method="POST" data-netlify="true" action="/Contacto/contacto.php">
+                        <div class="mb-3 formulario">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="email@example" required>
+                        </div>
+
+                        <div class="mb-3 formulario">
+                            <input type="text" class="form-control" id="name" name="nombre"
+                                placeholder="Nombre y apellido" pattern="[A-Za-z]+" title="No se admiten valores numericos" required >
+                        </div>
+
+                        <div class="mb-3 formulario">
+                            <input type="tel" class="form-control" name="telefono" id="phone" placeholder="Telefono"  pattern="[0-9]+">
+                        </div>
+
+                        <div class="mb-3 formulario">
+                            <textarea class="form-control" name="comentarios" id="message"
+                                placeholder="Escribe tu Mensaje" style="max-height: 100px"></textarea>
+                        </div>
+
+                        <div class="mb-3 formulario">
+                            <button type="submit" class="btn btn-warning w-100 fs-5">Enviar Mensaje</button>
+                        </div>
+                    </form>
+
+                </div>
             </div>
-        </div>
-    </section>
-</main>
-<!-- ACA TERMINA EL MAIN  -->
+
+        </section>
+
+    </main>
+    <!-- ACA TERMINA EL MAIN  -->
