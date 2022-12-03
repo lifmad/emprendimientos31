@@ -1,5 +1,6 @@
 
 
+<<<<<<< HEAD
 .titulo .principal{
 
     font-size: 23px;
@@ -8,14 +9,27 @@
 
 
 
+=======
+main{
+    background-color:  rgba(88, 81, 81, 0.39);
+}
+.carousel{
+    width: 90%;
+    margin-left: 65px;
+}
+
+>>>>>>> c4b1cfe44fb6e084ce6d37f2854f02d13bee8f8d
 img{
 
-    height: 100vh;
-    width: 200px;
+    height: 500px;
+    width: 500px;
+    border-top: 10px;
+    border-radius: 10px;
     
 }
 .separador{
     color:  rgba(88, 81, 81, 0.39);
+    
 }
 
 /* ACA COMIENZA EL SLOGAN DE NUESTRA MARCA  */
@@ -39,6 +53,7 @@ border-radius: 20px;
      
 
 }
+<<<<<<< HEAD
 
 
 
@@ -70,26 +85,70 @@ border-radius: 20px;
 
 /* ACA EMPIEZAN LAS CARTAS  */
 .containercard3,.containercard2{
+=======
+.slogan_div:hover{
+    cursor: pointer;
+    background-color: #ffc008;
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 0 10px #ffc008 , 0 0 40px #ffc008 , 0 0 80 px #ffc008 ;
+    
+}
+
+
+
+/* ACA EMPIEZAN LOS ESTILOS DE LAS  CARTAS  */
+.containercard3{
+>>>>>>> c4b1cfe44fb6e084ce6d37f2854f02d13bee8f8d
     
     display: flex;
     justify-content: space-around;
+}
+.containercard2{
+    display: flex;
+    justify-content:space-evenly;
 }
 
 .cardperfil{
     width: 300px;
     height: 450px;
-    background-color:  rgba(88, 81, 81, 0.39);
+    background-color:  rgba(88, 81, 81, 0.39); 
+    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow:  5px 5px 10px #321a1a,
+                -5px -5px 10px #c86666;
+} 
+.cardperfil:hover{
 
+    transform: scale(1.1);
+    transition: 50.4ms;
+}
+
+ .imgignacio, .imgbeimar, .imgbelen, .imgmagali, .imgjoaquin{
+   
+     width: 201px; 
+    height: 260px;
+    margin-top: 30px;
+    border-radius: 10px ;
+    
     
 }
- .imgignacio, .imgbeimar, .imgbelen, .imgmagali, .imgjoaquin{
-    width: 201px;
-    height: 260px;
-  
+.cardtext{
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', cursive;
 
 }
 .btncards{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 40px;
     background-color: #ffc008;
-    margin: 5% 29%;
-    border-radius: 10px;
+    text-decoration: none;
+    
 }
+.btncards a{
+    text-decoration: none;
+}
+
