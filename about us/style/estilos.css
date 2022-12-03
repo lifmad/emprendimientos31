@@ -73,6 +73,9 @@ border-radius: 20px;
     height: 450px;
     background-color:  rgba(88, 81, 81, 0.39); 
     border-radius: 10px;
+    border-radius: 12px;
+    box-shadow:  5px 5px 10px #321a1a,
+                -5px -5px 10px #c86666;
 } 
 .cardperfil:hover{
 
