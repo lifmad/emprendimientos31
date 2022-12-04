@@ -137,7 +137,6 @@ main{
     flex-direction: row;    
     align-items: center;
     justify-content: center;
-    gap: 25px;
     width: 100%;
     height: 150px;
 }
@@ -153,7 +152,7 @@ main{
     display: flex;
     align-items: center;
     padding: 20px;
-    border: 3px solid black;
+    border: 4px solid black;
 }
 
 
@@ -243,6 +242,17 @@ main{
     height: 48px;
 }
 
+.catalogo .catalogo-filtros .container-filtros 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;  
+    width: 1320px;
+    height: 100%;
+
+}
+
 .catalogo .catalogo-emprendimientos 
 { 
     width: 100%;
@@ -258,7 +268,7 @@ main{
     text-decoration: underline;
 }
 
-.catalogo .catalogo-emprendimientos .col-sm-4 .facebook-img
+.catalogo .catalogo-emprendimientos .col-sm-4 .facebook-img, .instagram-img
 {
     width: 40px;
     height: 40px;
@@ -273,7 +283,7 @@ main{
 
 .catalogo .catalogo-emprendimientos .col-sm-4 .container-redes
 {
-    width: 110px;
+    width: 150px;
     height: 45px;
     background-color:rgba(243, 136, 6, 0.646);
     border-radius: 20px;
