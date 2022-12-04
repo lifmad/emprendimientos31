@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
     res.render('capacitaciones', { title: 'Capacitaciones' });
 });
   
-router.get('/guia-register', function(req, res, next) {
+router.get('/guide', function(req, res, next) {
     res.render('c_registrar', { title: 'Gui de registro' });
 });
   
