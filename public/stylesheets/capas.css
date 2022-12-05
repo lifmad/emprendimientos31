@@ -6,10 +6,6 @@ header{
     background-color: #212528;
 }
 
-main{
-    background-color:  rgba(88, 81, 81, 0.39);
-}
-
 
 /*estilos nav*/
 .caja-logo-nav{
@@ -59,7 +55,7 @@ main{
 
 
 
-h3{
+main.capa h3{
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
 }

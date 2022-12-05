@@ -7,6 +7,7 @@
 main{
     background-color:  rgba(88, 81, 81, 0.39);
 }
+<<<<<<< HEAD
 
 
 
@@ -45,10 +46,27 @@ img{
 
     height: 100vh;
     width: 200px;
+=======
+.carousel{
+    width: 90%;
+    margin-left: 65px;
+}
+
+img{
+
+    height: 500px;
+    width: 500px;
+    border-top: 10px;
+    border-radius: 10px;
+>>>>>>> b37840122e4f4785c6cdc269d7cc945c6c45619d
     
 }
 .separador{
     color:  rgba(88, 81, 81, 0.39);
+<<<<<<< HEAD
+=======
+    
+>>>>>>> b37840122e4f4785c6cdc269d7cc945c6c45619d
 }
 
 /* ACA COMIENZA EL SLOGAN DE NUESTRA MARCA  */
@@ -72,6 +90,7 @@ border-radius: 20px;
      
 
 }
+<<<<<<< HEAD
 
 
 
@@ -80,10 +99,20 @@ border-radius: 20px;
 
 h5{
     color: white;
+=======
+.slogan_div:hover{
+    cursor: pointer;
+    background-color: #ffc008;
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 0 10px #ffc008 , 0 0 40px #ffc008 , 0 0 80 px #ffc008 ;
+    
+>>>>>>> b37840122e4f4785c6cdc269d7cc945c6c45619d
 }
 
 
 
+<<<<<<< HEAD
 .sub-titulo h2{
     color: black;
     text-align: center;
@@ -148,14 +177,26 @@ hr{
 
 /* ACA EMPIEZAN LAS CARTAS  */
 .containercard3,.containercard2{
+=======
+/* ACA EMPIEZAN LOS ESTILOS DE LAS  CARTAS  */
+.containercard3{
+>>>>>>> b37840122e4f4785c6cdc269d7cc945c6c45619d
     
     display: flex;
     justify-content: space-around;
 }
+<<<<<<< HEAD
+=======
+.containercard2{
+    display: flex;
+    justify-content:space-evenly;
+}
+>>>>>>> b37840122e4f4785c6cdc269d7cc945c6c45619d
 
 .cardperfil{
     width: 300px;
     height: 450px;
+<<<<<<< HEAD
     background-color:  rgba(88, 81, 81, 0.39);
 
     
@@ -171,3 +212,45 @@ hr{
     margin: 5% 29%;
     border-radius: 10px;
 }
+=======
+    background-color:  rgba(88, 81, 81, 0.39); 
+    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow:  5px 5px 10px #321a1a,
+                -5px -5px 10px #c86666;
+} 
+.cardperfil:hover{
+
+    transform: scale(1.1);
+    transition: 50.4ms;
+}
+
+ .imgignacio, .imgbeimar, .imgbelen, .imgmagali, .imgjoaquin{
+   
+     width: 201px; 
+    height: 260px;
+    margin-top: 30px;
+    border-radius: 10px ;
+    
+    
+}
+.cardtext{
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+.btncards{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: #ffc008;
+    text-decoration: none;
+    
+}
+.btncards a{
+    text-decoration: none;
+}
+
+>>>>>>> b37840122e4f4785c6cdc269d7cc945c6c45619d
