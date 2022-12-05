@@ -9,6 +9,22 @@ main{
 img{
     width: 8%;
 }
+#contenedor-formulario{
+    width: 400px;
+    margin: 40px auto;
+    background-color: #ccc;
+
+
+}
+main.vistacontacto .formulario {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 
