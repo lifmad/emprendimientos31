@@ -9,14 +9,21 @@ main{
 img{
     width: 8%;
 }
-#contenedor-formulario{
+main.vistacontacto #contenedor-formulario{
     width: 400px;
+    height: 525px;
     margin: 40px auto;
     background-color: #ccc;
+    border-radius: 5px;
 
 
 }
-main.vistacontacto .formulario {
+main.vistacontacto #titulo-formulario h2{
+    padding-top : 30px ;
+    padding-bottom: 25px;
+}
+main.vistacontacto .formulario input , main.vistacontacto .formulario textarea 
+{
     display: block;
     width: 100%;
     margin-bottom: 20px;
@@ -24,7 +31,14 @@ main.vistacontacto .formulario {
     border: none;
     border-bottom: 2px solid #ccc;
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(216, 212, 212);
 }
+main.vistacontacto .formulario input:focus {
+    border-bottom: 2px solid #212528;
+    cursor: pointer;
+
+}
+
 
 
 
