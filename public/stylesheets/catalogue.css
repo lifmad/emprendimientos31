@@ -1,0 +1,217 @@
+main.catalogue {
+    padding-bottom: 30px;
+   }
+   main.catalogue .caja-nav{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: #212528;
+   }
+   main.catalogue .caja-link li a{
+    color: white;
+   }
+   main.catalogue .caja-link li a:hover{
+    color: #ffc008;
+   }
+   main.catalogue .caja-link a:visited{
+    color: white;
+   }
+   main.catalogue .caja-registrar{
+    padding: 0 70px 0 0;
+   }
+   /* ------------------ Estilos Footer ------------------*/
+   /*footer*/
+   main.catalogue .titulo-footer {
+    color: aliceblue;
+   }
+   main.catalogue .parrafo-footer{
+    color: aliceblue;
+   }
+   main.catalogue .bi-instagram {
+    color:#ffc008
+   }
+   main.catalogue .bi-twitter{
+    color: #ffc008
+   }
+   main.catalogue .insta{
+    height: 10px;
+   }
+   main.catalogue .bi-facebook{
+    color:#ffc008
+   }
+   main.catalogue .registro{
+    display: flex;
+    justify-content: center;
+   }
+   main.catalogue .copy{
+    display: flex;
+    justify-content: center;
+    color: white;
+   }
+   /* ------------------ Estilos IMG Barrio 31 ------------------*/
+   main.catalogue .img-31{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+   }
+   main.catalogue .img-31 img {
+    width: 100%;
+    height: 100%;
+   }
+   main.catalogue .img-31 h1,
+   main.catalogue .img-31 h2 { 
+    color: white;
+    position: absolute; 
+    font-weight: 700;
+   }
+   main.catalogue .img-31 h1 {
+    text-shadow: 5px 5px 5px black;
+    font-size: 5rem;
+    top: 40%; 
+    left: 5%; 
+   }
+   main.catalogue .img-31 h2 {
+    text-shadow: 5px 5px 2px black;
+    font-size: 2rem;
+    top: 62%; 
+    left: 6%;
+   }
+   /* ------------------ Estilos Catalogo------------------*/
+   
+   main.catalogue .catalogo {
+    width: 100%; 
+   }
+   
+   /* ------------------ Estilos Catalogo-Filtros ------------------*/
+    
+   main.catalogue .catalogo-filtros {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    height: 150px;
+   }
+   /* --- Buscador--- */ 
+   main.catalogue .catalogo .catalogo-filtros .box {
+    width: 300px;
+    height: 50px;
+    background-color: #ffc008 ;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 4px solid black;
+   }
+   main.catalogue .catalogo .catalogo-filtros .box > i {
+    font-size: 20px;
+    color: black;
+   }
+   main.catalogue .catalogo .catalogo-filtros .box > input {
+    background-color: #ffc008;
+    flex : 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+   }
+   /* --- Switch Publicados Hoy --- */ 
+   main.catalogue .catalogo .catalogo-filtros .container-publicados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 220px;
+    height: 55px;
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid black;
+    
+   }
+   main.catalogue .catalogo .catalogo-filtros .texto-publicados {
+    display: block;
+   }
+   /* --- Titulo Emprendimientos --- */
+   main.catalogue .catalogo .catalogo-filtros .container-select-categoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 80px; 
+   }
+   main.catalogue .catalogo .catalogo-filtros .container-select-categoria .form-select {
+    color: black;
+    background-color: #ffc008;
+   }
+   main.catalogue .catalogo .catalogo-filtros .container-select-categoria .form-select-lg {
+    border-radius: 0;
+   }
+   main.catalogue .catalogo .catalogo-filtros .container-select-categoria .mb-3
+   {
+    margin-bottom: 0;
+   }
+   main.catalogue .catalogo .catalogo-filtros .container-ordenamiento {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 80px;
+   }
+   main.catalogue .catalogo .catalogo-filtros .container-ordenamiento .form-select-lg {
+    font-size: 15px;
+   }
+   main.catalogue .catalogo .catalogo-filtros .container-ordenamiento .form-select
+   {
+    width: 100%;
+    height: 48px;
+   }
+   main.catalogue .catalogo .catalogo-filtros .container-filtros 
+   {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row; 
+    width: 1320px;
+    height: 100%;
+   }
+   main.catalogue .catalogo .catalogo-emprendimientos 
+   { 
+    width: 100%;
+   }
+   main.catalogue .catalogo .catalogo-emprendimientos .col-sm-4
+   {
+    padding-top: 25px;
+   }
+   main.catalogue .catalogo .catalogo-emprendimientos .col-sm-4 h5
+   {
+    text-decoration: underline;
+   }
+   main.catalogue .catalogo .catalogo-emprendimientos .col-sm-4 .facebook-img, .instagram-img
+   {
+    width: 40px;
+    height: 40px;
+   }
+   main.catalogue .catalogo .catalogo-emprendimientos .col-sm-4 .whatsapp-img
+   {
+    width: 45px;
+    height: 45px;
+   }
+   main.catalogue .catalogo .catalogo-emprendimientos .col-sm-4 .container-redes
+   {
+    width: 150px;
+    height: 45px;
+    background-color:rgba(243, 136, 6, 0.646);
+    border-radius: 20px;
+   }
+   main.catalogue .catalogo .catalogo-emprendimientos .col-sm-4 .card .size-medium
+   {
+    width: 100%;
+    height: 250px;
+    border: 7px solid transparent;
+    border-radius: 10px;
+   }
+   main.catalogue .catalogo .catalogo-emprendimientos .col-sm-4 .card
+   {
+    background-color:#ffc10861;
+   }
