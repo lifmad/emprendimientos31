@@ -27,7 +27,6 @@ section.sec-urb .box-img img {
 
 section.sec-urb .box-img img:hover {
     transform: scale(1.1);
-    opacity: .8;
 }
 
 
